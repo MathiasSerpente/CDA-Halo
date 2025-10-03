@@ -1,4 +1,4 @@
-package com.halo.ms_users_requests;
+package com.halo.web_app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableFeignClients
-public class MsUsersRequestsApplication {
+public class WebAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MsUsersRequestsApplication.class, args);
+		SpringApplication.run(WebAppApplication.class, args);
 	}
 
 }
